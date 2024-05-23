@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
     // Faire une requête GET vers le serveur Node.js
-    axios.get(import.meta.env.API_URL+'/api')
+    axios.get(import.meta.env.VITE_API_URL+'/api')
       .then(response => {
         setMessage(response.data);
       })
