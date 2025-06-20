@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Message from Nodjs:</h1>
+      <h1>Message from Node.js:</h1>
       <p>{message}</p>
     </div>
   );
