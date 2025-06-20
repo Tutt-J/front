@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Message from Node.js:</h1>
+      <h1>Message from Nodjs:</h1>
       <p>{message}</p>
     </div>
   );
